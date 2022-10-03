@@ -1,0 +1,45 @@
+.root {
+    position: relative;
+    width: 1920px;
+    height: 100px;
+
+    background: #F9EFE6;
+    overflow: hidden;
+
+}
+
+.menu {
+    position: relative;
+    width: auto;
+    height: 47px;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.item {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 5px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.line {
+
+    width: 0px;
+    height: 36px;
+    
+
+    border: 1px solid #FC2F00;
+}

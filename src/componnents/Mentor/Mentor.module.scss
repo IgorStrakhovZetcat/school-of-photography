@@ -1,0 +1,93 @@
+.boxMentor {
+    margin-left: 222px;
+    margin-right: 222px;
+}
+
+.redBorder {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 341.25px;
+    height: 190.98px;
+    margin-top: 30px;
+    margin-left: -45px;
+    border: 1px solid #FC2F00;
+    transform: rotate(26.89deg);
+    border-radius: 300px / 170px;
+}
+
+.img {
+    position: absolute;
+    width: 245.03px;
+    height: 245.03px;
+
+    border-radius: 200px;
+}
+
+.boxDescription {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    position: absolute;
+    height: 23px;
+    margin-left: 240px;
+    margin-top: 270px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.dot {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-left: -15px;
+    background: #FC2F00;
+}
+
+.age {
+    position: absolute;
+    width: 107px;
+    height: 20px;
+    margin-top: 300px;
+    margin-left: 240px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.experience {
+    position: absolute;
+    height: 20px;
+    margin-top: 330px;
+    margin-left: 240px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}

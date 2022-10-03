@@ -1,0 +1,169 @@
+.root {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    margin-top: -20px;
+    background: #F9EFE6;
+    overflow: hidden;
+}
+
+.student1 {
+    position: absolute;
+    width: 538px;
+    height: 158px;
+    left: 135px;
+    top: 304px;
+
+    font-family: 'New-YorkerC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 158px;
+    z-index: 1;
+    color: #000000;
+}
+
+.student2 {
+    position: absolute;
+    width: 538px;
+    height: 158px;
+    left: 140px;
+    top: 301px;
+
+    font-family: 'New-YorkerC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 158px;
+    color: #FC2F00;
+
+}
+
+.work {
+    position: absolute;
+    width: 236px;
+    height: 187px;
+    left: 286px;
+    top: 397px;
+
+    font-family: 'Beardies DEMO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 170px;
+    line-height: 187px;
+    /* identical to box height */
+
+    z-index: 2;
+    color: #FC2F00;
+}
+
+.box1 {
+    position: absolute;
+    width: 334px;
+    height: 206px;
+    left: 828px;
+    top: 127px;
+    overflow: hidden;
+}
+
+.image1 {
+    position: absolute;
+    width: 334px;
+    height: 456px;
+    margin-top: -205px;
+
+}
+
+.box2 {
+    position: absolute;
+    width: 334px;
+    height: 528px;
+    left: 828px;
+    top: 363px;
+    overflow: hidden;
+}
+
+.image2 {
+    position: absolute;
+    width: 334px;
+    height: 528px;
+}
+
+.box3 {
+    position: absolute;
+    width: 334px;
+    height: 159px;
+    left: 828px;
+    top: 921px;
+    overflow: hidden;
+}
+
+.image3 {
+    position: absolute;
+    width: 334px;
+    height: 409px;
+    margin-top: -250px;
+}
+
+.box4 {
+    position: absolute;
+    width: 334px;
+    height: 347px;
+    left: 1192px;
+    top: 127px;
+    overflow: hidden;
+}
+
+.image4 {
+    position: absolute;
+    width: 534px;
+    height: 397px;
+    margin-left: -100px;
+}
+
+.box5 {
+    position: absolute;
+    width: 334px;
+    height: 576px;
+    left: 1192px;
+    top: 504px;
+    overflow: hidden;
+}
+
+.image5 {
+    position: absolute;
+    width: 394px;
+    height: 576px;
+    margin-left: -30px;
+}
+
+.box6 {
+    position: absolute;
+    width: 334px;
+    height: 540px;
+    left: 1556px;
+    top: 127px;
+    overflow: hidden;
+}
+
+.image6 {
+    position: absolute;
+    width: 364px;
+    height: 540px;
+}
+
+.box7 {
+    position: absolute;
+    width: 334px;
+    height: 383px;
+    left: 1556px;
+    top: 697px;
+    overflow: hidden;
+}
+
+.image7 {
+    position: absolute;
+    width: 334px;
+    height: 482px;
+    margin-top: -85px;
+}

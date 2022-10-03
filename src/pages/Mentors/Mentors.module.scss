@@ -1,0 +1,67 @@
+.root {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: #F9EFE6;
+    overflow: hidden;
+}
+
+.mentors1 {
+    position: absolute;
+    width: 576px;
+    height: 158px;
+    left: 672px;
+    top: 248px;
+
+    font-family: 'New-YorkerC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 158px;
+    z-index: 1;
+    color: #FC2F00;
+}
+
+.mentors2 {
+    position: absolute;
+    width: 576px;
+    height: 158px;
+    left: 675px;
+    top: 246px;
+
+    font-family: 'New-YorkerC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 158px;
+
+}
+
+.best {
+    position: absolute;
+    width: 174px;
+    height: 187px;
+    left: 873px;
+    top: 137px;
+
+    font-family: 'Beardies';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 170px;
+    line-height: 187px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.boxMentors {
+    position: absolute;
+    width: 1328.73px;
+    height: 475.01px;
+    left: 190px;
+    top: 494.99px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,66 @@
+.root {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: #F9EFE6;
+    overflow: hidden;
+}
+
+
+.boxReviews {
+    position: absolute;
+    width: 1328.73px;
+    height: 475.01px;
+    left: 190px;
+    top: 494.99px;
+    display: flex;
+    justify-content: center;
+}
+
+.reviews1 {
+    position: absolute;
+    width: 491px;
+    height: 158px;
+    left: 609px;
+    top: 139px;
+
+    font-family: 'New-YorkerC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 158px;
+    z-index: 1;
+    color: #FC2F00;
+}
+
+.reviews2 {
+    position: absolute;
+    width: 491px;
+    height: 158px;
+    left: 615px;
+    top: 137px;
+
+    font-family: 'New-YorkerC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 158px;
+    color: #000000;
+}
+
+.aboutus {
+    position: absolute;
+    width: 334px;
+    height: 148px;
+    left: 977px;
+    top: 223px;
+
+    font-family: 'Beardies';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 170px;
+    line-height: 187px;
+    z-index: 2;
+    color: #000000;
+}

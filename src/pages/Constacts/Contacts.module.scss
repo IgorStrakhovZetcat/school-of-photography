@@ -1,0 +1,366 @@
+.root {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    margin-top: -20px;
+    background: #F9EFE6;
+    overflow: hidden;
+}
+
+.getIn {
+    position: absolute;
+    width: 284px;
+    height: 187px;
+    left: 818px;
+    top: 137px;
+
+    font-family: 'Beardies DEMO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 170px;
+    line-height: 187px;
+    /* identical to box height */
+    z-index: 2;
+
+    color: #FC2F00;
+}
+
+.touch1 {
+    position: absolute;
+    width: 456px;
+    height: 158px;
+    left: 732px;
+    top: 240px;
+
+    font-family: 'New-YorkerC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 158px;
+    z-index: 1;
+    color: #000000
+}
+
+.touch2 {
+    position: absolute;
+    width: 456px;
+    height: 158px;
+    left: 734px;
+    top: 238px;
+
+    font-family: 'New-YorkerC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 158px;
+    color: #FC2F00;
+}
+
+.frame {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 585px;
+    height: 415px;
+    left: 652px;
+    top: 431px;
+
+    border: 1px solid #FC2F00;
+}
+
+.boxFillOut {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 591px;
+    height: 420px;
+    left: 678px;
+    top: 454px;
+
+    background: #FFFFFF;
+    border: 1px solid #FC2F00;
+}
+
+.phoneNumber {
+    position: absolute;
+    width: 130px;
+    height: 23px;
+    left: 260px;
+    top: 580px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.number {
+    position: absolute;
+    width: 140px;
+    height: 20px;
+    left: 260px;
+    top: 613px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.address {
+    position: absolute;
+    width: 72px;
+    height: 23px;
+    left: 260px;
+    top: 700px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.addressEx {
+    position: absolute;
+    width: 241px;
+    height: 20px;
+    left: 260px;
+    top: 733px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.site {
+    position: absolute;
+    width: 33px;
+    height: 23px;
+    left: 1536.36px;
+    top: 580.65px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.link {
+    position: absolute;
+    width: 164px;
+    height: 20px;
+    left: 1536.36px;
+    top: 613.65px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.email {
+    position: absolute;
+    width: 49px;
+    height: 23px;
+    left: 1536.36px;
+    top: 699.65px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000
+}
+
+.linkEmail {
+    position: absolute;
+    width: 183px;
+    height: 20px;
+    left: 1536.36px;
+    top: 732.65px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.iconPhone {
+    position: absolute;
+
+    left: 10.42%;
+    right: 87.78%;
+    top: 53.24%;
+    bottom: 43.56%;
+
+    color: #FC2F00;
+}
+
+.iconAddress {
+    position: absolute;
+    left: 10.47%;
+    right: 87.91%;
+    top: 64.07%;
+    bottom: 32.24%;
+
+    color: #FC2F00;
+}
+
+.iconSite {
+    position: absolute;
+    left: 76.61%;
+    right: 21.31%;
+    top: 53.06%;
+    bottom: 43.26%;
+
+    color: #FC2F00;
+}
+
+.iconEmail {
+    position: absolute;
+    left: 76.61%;
+    right: 21.13%;
+    top: 64.26%;
+    bottom: 32.54%;
+
+    color: #FC2F00;
+}
+
+.title {
+    position: absolute;
+    width: 198px;
+    height: 20px;
+    left: 196px;
+    top: 41px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.text {
+    position: absolute;
+    width: 422px;
+    height: 20px;
+    left: 85px;
+    top: 76px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.fieldName {
+    position: absolute;
+    top: 154px;
+    left: 50px;
+}
+
+.fieldPhone {
+    position: absolute;
+    top: 154px;
+    left: 160px;
+}
+
+.fieldEmail {
+    position: absolute;
+    width: 491px;
+    top: 159px;
+    left: 50px;
+}
+
+.frameApply {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 106.59px;
+    height: 59.65px;
+    left: 234px;
+    top: 299px;
+
+    border: 1px solid #FC2F00;
+    transform: rotate(26.89deg);
+    border-radius: 140px / 80px;
+}
+
+.apply {
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    left: 264px;
+    top: 315px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}

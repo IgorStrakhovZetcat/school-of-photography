@@ -1,0 +1,269 @@
+.root {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: #F9EFE6;
+    overflow: hidden;
+}
+
+
+
+
+
+.learn {
+    position: absolute;
+    width: 336px;
+    height: 166px;
+    left: 122px;
+    top: 152px;
+
+    font-family: 'Beardies';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 270px;
+    line-height: 297px;
+
+    color: #000000;
+    z-index: 4;
+}
+
+.photography1 {
+    position: absolute;
+    width: 958px;
+    height: 158px;
+    left: 259px;
+    top: 296px;
+    display: block;
+    font-family: 'New-YorkerC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 158px;
+
+    color: #FC2F00;
+    z-index: 3;
+}
+
+.photography2 {
+    position: absolute;
+    width: 958px;
+    height: 158px;
+    left: 264px;
+    top: 293px;
+
+    font-family: 'New-YorkerC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 158px;
+
+    //border: 1px solid #000000;
+    z-index: 2;
+}
+
+.never1 {
+    position: absolute;
+    width: 313px;
+    height: 134px;
+    left: 259px;
+    top: 474px;
+
+    font-family: 'New-YorkerC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 134px;
+    /* identical to box height */
+
+    z-index: 3;
+    color: #000000;
+}
+
+.never2 {
+    position: absolute;
+    width: 313px;
+    height: 134px;
+    left: 261px;
+    top: 471px;
+
+    font-family: 'New-YorkerC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 134px;
+    /* identical to box height */
+
+    color: #FC2F00;
+
+}
+
+.like {
+    position: absolute;
+    width: 84px;
+    height: 86px;
+    left: 623px;
+    top: 446px;
+
+    font-family: 'Beardies';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110px;
+
+    color: #000000;
+}
+
+.before {
+    position: absolute;
+    width: 366px;
+    height: 195px;
+    left: 518px;
+    top: 524px;
+
+    font-family: 'Beardies';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 220px;
+    line-height: 242px;
+
+    color: #FC2F00;
+    z-index: 2;
+}
+
+.boxGetStarted {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 239.17px;
+    height: 133.85px;
+    left: 320.53px;
+    top: 747px;
+
+    border: 2px solid #FC2F00;
+
+    transform: rotate(26.89deg);
+
+    -webkit-border-radius: 120px / 70px;
+    -moz-border-radius: 120px / 70px;
+    border-radius: 120px / 70px;
+}
+
+.getStarted {
+    position: absolute;
+    width: 105px;
+    height: 25px;
+    left: 385px;
+    top: 799px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.box1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 574px;
+    height: 897px;
+    left: 794px;
+    top: 420px;
+    border: 2px solid #FC2F00;
+
+
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+}
+
+.box2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 488px;
+    height: 910px;
+    left: 1126px;
+    top: 139px;
+
+    border: 2px solid #FC2F00;
+}
+
+.box3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 718px;
+    height: 718px;
+    left: 1426px;
+    top: 245px;
+    border: 2px solid #FC2F00;
+
+    -webkit-border-radius: 400px;
+    -moz-border-radius: 400px;
+    border-radius: 400px;
+
+}
+
+.boxImg1 {
+    position: absolute;
+    width: 490px;
+    height: 765px;
+    left: 836px;
+    top: 462px;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+    overflow: hidden;
+}
+
+.img1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 520px;
+    height: 830px;
+    top: -200px;
+    z-index: 1;
+
+}
+
+.boxImg2 {
+    position: absolute;
+    width: 436px;
+    height: 819.81px;
+    left: 1178px;
+    top: 186px;
+    overflow: hidden;
+}
+
+.img2 {
+    position: absolute;
+    width: 536px;
+    height: 819.81px;
+    left: -60px;
+
+}
+
+.boxImg3 {
+    position: absolute;
+    width: 612px;
+    height: 612px;
+    left: 1480px;
+    top: 298px;
+    border-radius: 400px;
+    overflow: hidden;
+}
+
+.img3 {
+    position: absolute;
+    left: 134px;
+    width: 392.65px;
+    height: 612px;
+
+
+}

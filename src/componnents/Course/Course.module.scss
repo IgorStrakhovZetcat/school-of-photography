@@ -1,0 +1,192 @@
+.boxCourse {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.redBox {
+    position: absolute;
+width: 233px;
+height: 278px;
+top: -21px;
+margin-left: 21px;
+
+
+border: 1px solid #FC2F00;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+
+
+.courseBorder {
+    position: relative;
+    width: 232.83px;
+    height: 278.04px;
+
+    background: #FFFFFF;
+    border: 1px solid #FC2F00;
+    
+}
+
+.img {
+    position: absolute;
+    width: 198.97px;
+    height: 198.97px;
+    top: 23px;
+    right: 16px;
+}
+
+.titlePic {
+    position: absolute;
+width: 252.06px;
+height: 38.59px;
+margin-top: 232px;
+font-family: 'Beardies';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 44px;
+
+color: #000000;
+
+display: flex;
+    justify-content: center;
+}
+
+.boxDescription {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    position: absolute;
+    width: auto;
+    height: 23px;
+    margin-top: 15px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.price {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    margin-top: 43px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.dot {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-left: -15px;
+    background: #FC2F00;
+}
+
+.duration {
+    position: absolute;
+    width: 134px;
+    height: 20px;
+    margin-top: 76px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.boxButton {
+    margin-top: 170px;
+    //display: flex;
+
+}
+
+.signup {
+    position: absolute;
+    width: 60px;
+    height: 20px;
+
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+
+}
+
+.boxsignup {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 116.41px;
+    height: 65.15px;
+    margin-top: -23px;
+    margin-left: -30px;
+
+    border: 1px solid #FC2F00;
+    transform: rotate(26.89deg);
+    border-radius: 170px / 100px;
+}
+
+.learnmore {
+    position: absolute;
+    width: 87px;
+    height: 20px;
+    margin-left: 132px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.line {
+    position: absolute;
+    width: 0px;
+    height: 86px;
+    margin-left: 42px;
+    margin-top: -20px;
+
+
+    border: 1px solid #FC2F00;
+    transform: rotate(-90deg);
+}
