@@ -43,3 +43,42 @@
 
     border: 1px solid #FC2F00;
 }
+
+.signIn {
+    
+   
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-left: 10px;
+    margin-top: 3px;
+    
+}
+
+.signInBox {
+    float: right;
+    border: 1px solid #FC2F00;
+    border-radius: 20px;
+    width: 85px;
+    height: 30px;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+.logOut {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-left: 10px;
+    margin-top: 3px;
+}

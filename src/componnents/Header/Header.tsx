@@ -1,11 +1,29 @@
 
+import { useDispatch, useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
+import { authService } from '../../config/service-config';
+import { ClientData, emptyClientData } from '../../models/ClientData';
+import { authAction } from '../../redux/actions';
+import { StateType } from '../../redux/store';
 import styles from './Header.module.scss'
 
 
 const Header: React.FC = () => {
+    const clientData: ClientData = useSelector<StateType, ClientData>(state => state.clientData);
+    const navigate = useNavigate();
+    const dispatch = useDispatch<any>();
 
 
+    async function onLogout() {
+        if(await authService.logout()) {
+            
+            dispatch(authAction(emptyClientData))
+            navigate('/')
+        }
+       
+    }
 
+    
     return <div className={styles.root}>
         <div className={styles.menu}>
             <a className={styles.item} href={'/aboutus'}>
@@ -44,6 +62,10 @@ const Header: React.FC = () => {
                 <div >CONTACTS</div>
             </a>
         </div>
+        <div className={styles.signInBox}>
+            {clientData.email ? <div onClick={onLogout} className={styles.logOut}>Log out</div> : <a href='/signIn' className={styles.signIn}>Sign in</a>}
+        </div>
+        
     </div>
 }
 

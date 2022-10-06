@@ -7,6 +7,7 @@ import Courses from './pages/Courses/Courses';
 import Home from './pages/Home/Home';
 import Mentors from './pages/Mentors/Mentors';
 import Reviews from './pages/Reviews/Reviews';
+import SignIn from './pages/SignIn/SignIn';
 import StudentsWork from './pages/StudentsWork/StudentsWork';
 
 
@@ -22,6 +23,7 @@ function App() {
       <Route path={'/studentswork'} element={<StudentsWork />} />
       <Route path={'reviews'} element={<Reviews />} />
       <Route path={'contacts'} element={<Contacts />} />
+      <Route path={'/signIn'} element={<SignIn/>}/>
     </Routes>
   </>
 }
